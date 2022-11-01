@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*declaracion de variables*/
+:root{
+    --colorfirst:rgb(43, 43, 158);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--colorfirst);
+}
+.row{
+    border: 10px solid white;
+    display: flex;
+}
+.row_begin{
+    height: 40rem; 
+    display: flex; 
+    flex-wrap: wrap;
+}
+.row_begin .infopersonal{
+    flex: 1;
+    background-color:aquamarine;
+}
+.row_begin section{
+    min-width: 27rem;
+    margin: 10px;
+    border-radius: 10px;
+}
+.row_begin .my_jobs{
+    flex: 2;
+    background-color:rgb(23, 194, 17);
+    margin: 10px;
+}
+
