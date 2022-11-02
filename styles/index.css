@@ -16,6 +16,7 @@ body{
     display: flex;
 }
 .row_begin{
+    min-width: 21rem;
     height: 40rem; 
     display: flex; 
     flex-wrap: wrap;
